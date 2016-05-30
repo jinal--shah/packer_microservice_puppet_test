@@ -11,6 +11,7 @@ export PACKER_INCLUDES_VERSION:=1.0.0
 
 ### ABOUT THS AMI ...
 export AMI_SOURCE_PREFIX:=eurostar_monlog
+export AMI_SOURCE_GIT_TAG:=1.0.1
 export AMI_SOURCE_CHANNEL:=*
 export AWS_INSTANCE_TYPE:=t2.large
 export AWS_REGION:=eu-west-1
