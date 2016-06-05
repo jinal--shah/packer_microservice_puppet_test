@@ -1,6 +1,8 @@
 # packer\_ms\_puppet
 
-* Used to create puppet-provisioned microservices
+... used to test packerised amis using puppet-masterless provisioner.
+
+## Usage
 
 Clone _packer\_includes_ at level of makefile.
 
@@ -20,7 +22,7 @@ appears under uploads/puppet, on subsequent runs only run
 
         make build # don't trash my modifications under puppet dir
 
-## Common Issues
+## Known Issues
 
 * The puppet stuff depends on a bunch of 3rd party modules.
   
@@ -30,7 +32,7 @@ appears under uploads/puppet, on subsequent runs only run
 
   specify an APP\_VERSION that actually exists in AWS dev s3 under:
 
-  /enovation/<EUROSTAR_SERVICE_NAME>/artefacts/integration/<APP_VERSION>
+  /enovation/$EUROSTAR\_SERVICE\_NAME/artefacts/integration/$APP_VERSION
 
-*TODO: stop using env specific folders for versioned artefacts!*
+**TODO: stop using env specific folders for versioned artefacts!**
 
