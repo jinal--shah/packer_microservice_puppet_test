@@ -4,7 +4,7 @@
 
 ## Usage
 
-Clone _packer\_includes_ at level of makefile.
+Clone _packer\_includes_ at level of Makefile.
 
 Export vars deliberately not defined in Makefile.
 
