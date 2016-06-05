@@ -8,3 +8,4 @@
 **/*.gz
 **/*.swp
 **/packer_includes
+**/uploads/puppet
