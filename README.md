@@ -30,7 +30,7 @@ appears under uploads/puppet, on subsequent runs only run
 
   specify an APP\_VERSION that actually exists in AWS dev s3 under:
 
-  /enovation/<EUROSTAR_SERVICE_NAME>/artefacts/integration
+  /enovation/<EUROSTAR_SERVICE_NAME>/artefacts/integration/<APP_VERSION>
 
 *TODO: stop using env specific folders for versioned artefacts!*
 
