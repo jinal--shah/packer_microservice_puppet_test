@@ -1,0 +1,1 @@
+# packer_ms_puppet
