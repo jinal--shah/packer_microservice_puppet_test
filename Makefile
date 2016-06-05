@@ -7,13 +7,13 @@ export METRICS_REMOTE_HOST?=
 export METRICS_REMOTE_PORT?=
 
 ### ABOUT BUILD SOURCES
-#   ... PACKER_INCLUDES
+#   ... packer_includes
 export PACKER_INCLUDES_GIT_TAG:=2.0.2
-#   ... AMI SOURCES
+#   ... ami sources
 export AMI_SOURCE_CHANNEL:=*
 export AMI_SOURCE_GIT_TAG:=1.0.1
 export AMI_SOURCE_PREFIX:=eurostar_monlog
-#   ... PUPPET SOURCES (EIF_PUPPET)
+#   ... puppet sources (eif_puppet)
 export PUPPET_BRANCH=pass_envs_from_file
 export PUPPET_GIT_TAG=1.0.1
 export PUPPET_REPO=git@github.com:ivangutev/eif_puppet.git
@@ -23,6 +23,7 @@ export AWS_INSTANCE_TYPE:=t2.large
 export AWS_REGION:=eu-west-1
 
 ### ABOUT THIS PRODUCT
+export APP_VERSION:=28
 export EUROSTAR_RELEASE_VERSION:=0.0.3
 export EUROSTAR_SERVICE_NAME:=payments
 export EUROSTAR_SERVICE_ROLE:=appsvr
