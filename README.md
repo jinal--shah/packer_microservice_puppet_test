@@ -1,4 +1,4 @@
-# packer\_product\_test
+# packer\_ms\_puppet
 
-* Used to smoke-test packer\_includes
+* Used to create puppet-provisioned microservices
 
