@@ -13,9 +13,11 @@ export PACKER_INCLUDES_GIT_TAG:=2.0.2
 export AMI_SOURCE_CHANNEL:=*
 export AMI_SOURCE_GIT_TAG:=1.0.1
 export AMI_SOURCE_PREFIX:=eurostar_monlog
+
 #   ... puppet sources (eif_puppet)
-export PUPPET_BRANCH=pass_envs_from_file
-export PUPPET_GIT_TAG=1.0.1
+# ... using 2.0.0: app_version instead of build_id for deployer
+export PUPPET_BRANCH=app-version-not-build-id
+export PUPPET_GIT_TAG=2.0.0
 export PUPPET_REPO=git@github.com:ivangutev/eif_puppet.git
 
 ### ABOUT AWS ...
