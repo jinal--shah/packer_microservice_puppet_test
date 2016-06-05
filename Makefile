@@ -25,8 +25,11 @@ export AWS_INSTANCE_TYPE:=t2.large
 export AWS_REGION:=eu-west-1
 
 ### ABOUT THIS PRODUCT
+
+# ... EUROSTAR_RELEASE_VERSION overriden from THIS repo's checked-out
+#     tag if one exists (e.g when building a release)
 export APP_VERSION:=28
-export EUROSTAR_RELEASE_VERSION:=0.0.3
+export EUROSTAR_RELEASE_VERSION:=alpha
 export EUROSTAR_SERVICE_NAME:=payments
 export EUROSTAR_SERVICE_ROLE:=appsvr
 export PUPPET_PRODUCT=payments
